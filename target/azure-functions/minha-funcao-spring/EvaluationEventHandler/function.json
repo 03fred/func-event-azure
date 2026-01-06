@@ -1,0 +1,9 @@
+{
+  "scriptFile" : "../minha-funcao-spring-1.0.0.jar",
+  "entryPoint" : "com.exemplo.funcao.EvaluationEventFunction.handle",
+  "bindings" : [ {
+    "type" : "eventGridTrigger",
+    "direction" : "in",
+    "name" : "event"
+  } ]
+}
